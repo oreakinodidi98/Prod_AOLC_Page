@@ -20,10 +20,6 @@
   "responseOverrides": {
     "404": {
       "rewrite": "/index.html"
-    },
-    "redirect-www": {
-      "statusCode": 301,
-      "redirect": "https://aolc.live"
     }
   },
   "globalHeaders": {
