@@ -188,6 +188,17 @@ footer {
   margin-top: 10px;
 }
 
+.credit a {
+  color: #d4af37;
+  text-decoration: underline;
+  opacity: 0.7;
+  transition: opacity 0.3s ease;
+}
+
+.credit a:hover {
+  opacity: 1;
+}
+
 /* Numbered Cards for Objectives */
 .objectives-grid {
   display: grid;
