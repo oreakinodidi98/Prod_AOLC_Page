@@ -1,0 +1,39 @@
+// {
+//   "routes": [
+//     {
+//       "route": "/*",
+//       "allowedRoles": ["anonymous"]
+//     }
+//   ],
+//   "mimeTypes": {
+//     ".json": "application/json",
+//     ".png": "image/png",
+//     ".css": "text/css",
+//     ".html": "text/html"
+//   }
+// }
+{
+  "routes": [
+    {
+      "route": "/",
+      "serve": "/index.html"
+    },
+    {
+      "route": "/objectives",
+      "serve": "/objectives.html"
+    },
+    {
+      "route": "/resources",
+      "serve": "/resources.html"
+    },
+    {
+      "route": "/contact",
+      "serve": "/contact.html"
+    }
+  ],
+  "responseOverrides": {
+    "404": {
+      "rewrite": "/index.html"
+    }
+  }
+}
