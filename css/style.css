@@ -65,6 +65,13 @@ nav a.active {
   color: #d4af37;
   padding: 70px 40px;
   animation: fadeIn 0.6s ease-out;
+  text-align: center;
+}
+
+.hero-logo {
+  height: 160px;
+  margin-bottom: 30px;
+  animation: fadeIn 0.8s ease-out;
 }
 
 .hero h2 {
@@ -412,6 +419,11 @@ footer {
   
   .hero {
     padding: 40px 20px;
+  }
+  
+  .hero-logo {
+    height: 100px;
+    margin-bottom: 20px;
   }
   
   .hero h2 {
